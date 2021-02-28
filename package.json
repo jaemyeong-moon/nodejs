@@ -1,0 +1,22 @@
+{
+  "name": "jsproject",
+  "version": "1.0.0",
+  "description": "node.js project",
+  "main": ".mongorc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaemyeong-moon/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "jaemyeong moon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaemyeong-moon/nodejs/issues"
+  },
+  "homepage": "https://github.com/jaemyeong-moon/nodejs#readme"
+}
