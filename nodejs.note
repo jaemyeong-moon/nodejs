@@ -33,15 +33,37 @@ Document 보는 방법
  기본 모듈 : node.js 라이브러리 디렉토리 
  확장 모듈 : 같은폴더 또는 [상위] node_modules 폴더 
 
- var rl = readline.createInterface({  // 객채 생성할 때, 파라메타가 들어가는 것들은 아래와 같이 키:값 으로 대입한다. 문서에 어떤 파라메타가 있는지 확인가능함.
+ var rl = readline.createInterface({  // 객채 생성할 때, 파라메타가 들어가는 것들은 아래와 같이 키:값 으로 대입한다. 다큐먼트에 어떤 파라메타가 있는지 확인가능함.
      input: process.stdin,
      output: process.stdout
  })
 
 
- 이벤트 
+ 이벤트  -> 다큐먼트에서 어떤 이벤트가 있는지 확인 가능.
  .on([이벤트 이름],[리스너 함수])
  rl.on('line',function(cmd){
      console.log('event : '+cmd);
  })
+ 
+
+ 모듈 함수 
+ 객채 없이 직접 사용 가능함 ( Static 함수라고 생각하면 될듯.)
+
+
+주요 기본모듈 
+프로세스 환경 - os. process, cluster
+파일과 경로/URL - fs, path, URL, querystring, stream
+네트워크 모듈 - http, https, net, dgram, dns
+
+전역객체 (global) 
+ - 객체생성없이 사용가능함
+ - global.x.x 로 접근가능. 
+
+
+
+바이너리 데이터를 처리하기 위해 Buffer 클래스 제공
+문자열을 인코딩하거나, 버퍼를 디코딩할 수 있음. 
+
+
+
  
