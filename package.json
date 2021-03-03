@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/jaemyeong-moon/nodejs/issues"
   },
-  "homepage": "https://github.com/jaemyeong-moon/nodejs#readme"
+  "homepage": "https://github.com/jaemyeong-moon/nodejs#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "jade": "^1.11.0"
+  }
 }
