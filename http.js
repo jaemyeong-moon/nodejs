@@ -31,6 +31,9 @@
  * 메세지 바디 내 파트 구성 : 파트 구분자(--XXXYYYZZZ), 파트인코딩,파트 내 정보
  * https://soooprmx.com/archives/9626 (예제)
  * 
+ * 
+ * 
+ * formidable (멀티파트 메세지 분석 모듈)
  */
 
 const http = require('http');
